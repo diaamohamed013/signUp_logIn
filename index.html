@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10 - Log In</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bgItems">
+
+    <div class="container vh-100 pt-5">
+        <div class="w-75 m-auto shadow-lg bgItems p-4">
+            <h1 class="text-center mb-4 text-info">
+                Smart Login System
+            </h1>
+            <input type="email" id="loginEmail" class="form-control mb-4 bgTransparent" placeholder="Enter Your Email">
+            <input type="password" id="loginPassword" class="form-control bgTransparent"
+                placeholder="Enter Your Password">
+            <div class="text-danger my-3 d-none" id="validData">
+                All input is required
+            </div>
+            <div class="text-danger my-3 d-none" id="invalid">
+                Invalid email or password
+            </div>
+            <div class="Btn mt-5">
+                <button id="logInBtn" onclick="logIn()"
+                    class="btn d-block w-100 border-1 border-info text-info text-decoration-none">Login</button>
+            </div>
+            <p class="text-center mt-3 text-light">
+                Don't have an account?
+                <a href="signUp.html" class="d-inline-block ms-1 text-decoration-none text-light"> Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.bgItems {
+    background: rgb(36, 53, 63);
+}
+
+.bgTransparent {
+    background-color: transparent;
+}
+
+.Btn .btn {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.Btn .btn:hover {
+    background-color: #0dcaf0;
+    color: #fff !important;
+}
+
+input {
+    color: #fff !important;
+}
+
+input:focus {
+    background-color: transparent !important;
+    border-color: rgb(128, 189, 255) !important;
+    box-shadow: none !important;
+}
+
+p a:hover {
+    text-decoration: underline !important;
+}
+
+.navbar .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(255, 193, 7);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    background-color: rgb(255, 193, 7);
+    color: #fff;
+}
